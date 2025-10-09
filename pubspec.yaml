@@ -1,0 +1,39 @@
+name: quranicart
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  # google_mobile_ads: ^2.4.0
+
+dev_dependencies:
+  anim_search_bar: ^2.0.3
+  audioplayers: ^6.1.0
+  curved_navigation_bar: ^1.0.3
+  dio: ^5.1.1
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+  geolocator: ^13.0.1
+  google_fonts: ^6.2.1
+  share_plus: ^10.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/datas/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
